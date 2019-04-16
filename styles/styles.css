@@ -1,0 +1,144 @@
+body {
+  font-family: "Georgia, serif"
+}
+.backgroundHome{
+  background-image: url("../images/da-vinci-background4.jpeg");
+  background-attachment: fixed;
+}
+.backgroundProjects{
+  background-image: url("../images/da-vinci-background.jpeg");
+  background-attachment: fixed;
+}
+.backgroundAboutMe{
+  background-image: url("../images/da-vinci-background5.jpeg");
+  background-attachment: fixed;
+}
+.backgroundContact{
+  background-image: url("../images/da-vinci-background3.jpeg");
+  background-attachment: fixed;
+}
+.headerHome{
+  margin: 35px;
+  padding: 10px;
+  border: 4px;
+  border-radius: 10px;
+  border-color: brown;
+  text-align: center;
+  font-size: 48px;
+  background-color: tan;
+  animation-name: headerAnimation;
+  animation-duration: 3s;
+  font-weight: bolder;
+}
+.header{
+  margin: 35px;
+  padding: 10px;
+  border: 4px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 48px;
+  background-color: tan;
+  font-weight: bolder;
+
+ }
+.footer{
+  text-align: right;
+  color: white;
+  font-family: "URW Chancery L, cursive";
+  font-size: 36px;
+}
+@keyframes headerAnimation{
+  0% {background-color: tan; color: black}
+  50% {background-color: brown; color: white}
+  100% {background-color: tan; color: black}
+}
+.topnav {
+  background-color: brown;
+  overflow: hidden;
+  border-radius: 10px
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+.topnav a:hover {
+  background-color: tan;
+  color: black;
+}
+.topnav a.active {
+  background-color: darkred;
+  color: white;
+}
+.contactInfo {
+  background-color: tan;
+  color: black;
+  text-align: center;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px
+}
+.picture{
+  background-repeat: no-repeat;
+}
+.homePage{
+  background-color: red;
+}
+.indexHome{
+  image-rendering: optimizeSpeed;
+}
+#myId{
+  color: orange;
+  text-decoration: none;
+}
+#indexId{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+#yetAnotherId{
+  outline-style: dashed;
+  outline-color: purple;
+  outline-offset: 15px;
+}
+.iLoveMyJob{
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-weight: bold;
+}
+.oneForPadding{
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+.thisOneIsForBorders{
+  border-style: dashed;
+}
+.anotherBorder{
+  border-style: groove;
+  border-radius: 15px
+}
+.favoriteFont{
+  font-family: "Arial"
+}
+.badFont{
+  font-family: "Courier New";
+  font-size: 24px;
+}
+.relativePosition{
+  position: relative;
+  right: 36px;
+  border: 4px;
+}
+.centerText {
+  background-color: tan;
+  overflow: hidden;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
