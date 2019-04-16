@@ -14,7 +14,8 @@ body {
   background-attachment: fixed;
 }
 .backgroundContact{
-  background-image: url("../images/da-vinci-background3.jpeg");
+  background-image: url("../images/da-vinci-photoshop-style-texture.jpg");
+  background-size: 100%;
   background-attachment: fixed;
 }
 .headerHome{
