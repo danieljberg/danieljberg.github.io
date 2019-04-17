@@ -143,3 +143,11 @@ body {
   color: white;
   text-align: center;
 }
+.quote{
+  background-color: tan;
+  color: black;
+  text-align: right;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px
+}
